@@ -1,0 +1,8 @@
+[package]
+name = "rust-assay-table"
+version = "0.1.0"
+authors = ["James Cox-Morton <th3james@fastmail.fm>"]
+build = "build.rs"
+
+[dependencies]
+
