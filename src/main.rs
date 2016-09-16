@@ -10,7 +10,7 @@ extern "C" fn callback(target: *mut RustObject, a: i32) {
     }
 }
 
-#[link(name = "ext", kind = "static")]
+#[link(name = "ext")]
 extern {
     fn register_callback(target: *mut RustObject,
                          cb: extern fn(*mut RustObject, i32)) -> i32;
